@@ -1,0 +1,17 @@
+{
+    "type": "carousel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "InfCarousel",
+        "designer|userAlias": "InfCarousel",
+        "baseCls": null,
+        "height": "200px",
+        "style": null
+    },
+    "id": "ExtBox1-ext-gen6884",
+    "designerId": "d8109c4a-c63e-4dcd-8f07-213af807848b"
+}

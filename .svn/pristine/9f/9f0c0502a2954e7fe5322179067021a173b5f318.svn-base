@@ -1,0 +1,142 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Follow",
+        "designer|userAlias": "Follow",
+        "designer|displayName": "Follow",
+        "id": "follow",
+        "layout": "card",
+        "scrollable": [
+            "{",
+            "  direction: 'horizontal',",
+            "  directionLock: true,",
+            "  momentumEasing:  {",
+            "     momentum: {",
+            "       acceleration: 30,",
+            "       friction: 0.5",
+            "     },",
+            "     bounce: {",
+            "        acceleration: 0.0001,",
+            "        springTension: 0.9999,",
+            "     },",
+            "     minVelocity: 5",
+            "  },",
+            "  outOfBoundRestrictFactor: 0   ",
+            "}"
+        ]
+    },
+    "configAlternates": {
+        "scrollable": "object"
+    },
+    "id": "ExtBox1-ext-gen1935",
+    "designerId": "f4ab793d-0c88-404a-9cf1-de0c09bbabf3",
+    "cn": [
+        {
+            "type": "segmentedbutton",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MySegmentedButton",
+                "docked": "top",
+                "height": "45px",
+                "width": null,
+                "pressedCls": "follow-btn-pressed"
+            },
+            "designerId": "ad1e5335-b74c-409e-87f5-2fb0203af7ed",
+            "cn": [
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "pressed": true,
+                        "designer|userClassName": "MyButton8",
+                        "baseCls": "",
+                        "cls": "follow-btn",
+                        "width": "50%",
+                        "pressedCls": "",
+                        "text": "FOLLOWING"
+                    },
+                    "designerId": "d8914257-aa1a-4b3a-acbe-e21db6afd827"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton9",
+                        "baseCls": "",
+                        "cls": "follow-btn",
+                        "width": "50%",
+                        "pressedCls": "",
+                        "text": "FOLLOWERS"
+                    },
+                    "designerId": "2530d117-2113-497d-84bc-88bf1b26c53c"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyList1",
+                "designer|displayName": "following list",
+                "border": null,
+                "itemCls": "follow-list",
+                "pressedCls": "x-item",
+                "selectedCls": "x-item",
+                "store": "Followers",
+                "itemHeight": 70,
+                "onItemDisclosure": true
+            },
+            "designerId": "6da8c469-7916-4703-a569-80d95f925adf",
+            "cn": [
+                {
+                    "type": "template",
+                    "reference": {
+                        "name": "itemTpl",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "itemTpl",
+                        "implHandler": [
+                            "<div class=\"list-item-content\">",
+                            "  <div class=\"avatar\">",
+                            "    <img src=\"{avatar}\" class=\"avatar\">",
+                            "  </div>",
+                            "  <div class=\"user-info\">",
+                            "    <div style=\"overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 18px; font-weight: bold; color: rgb(80,80,80);\">{name}</div>",
+                            "    <div style=\"font-size: 13px; color: gray;\">@{hashtag}</div>",
+                            "    <div style=\"font-size: 15px; color: gray;\">{fans} followers</div>",
+                            "  </div>",
+                            "  <div style=\"display: inline-block; vertical-align: center; width: 0px; float: right; height: 55px; border-right: solid 1px rgb(200,200,200);\">    ",
+                            "  </div>",
+                            "</div>"
+                        ],
+                        "designer|displayName": "itemTpl"
+                    },
+                    "designerId": "6a45aa7d-4693-4919-923d-703b887d7ee1"
+                }
+            ]
+        }
+    ]
+}

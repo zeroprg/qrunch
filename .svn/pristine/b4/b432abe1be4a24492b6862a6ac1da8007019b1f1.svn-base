@@ -1,0 +1,18 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ContentView",
+        "designer|userAlias": "ContentView",
+        "designer|displayName": "Content View",
+        "html": null,
+        "id": "content-view",
+        "layout": "card"
+    },
+    "id": "ExtBox1-ext-gen1901",
+    "designerId": "d3cd57fc-98bf-42f1-a86d-3ff7262806c4"
+}

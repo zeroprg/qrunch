@@ -1,0 +1,30 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Interests",
+        "data": "[\n    { title: 'Sacremento Kings' },\n    { title: 'Juventus' },\n    { title: 'Somalia' },\n]",
+        "storeId": "Interests"
+    },
+    "id": "ExtBox1-ext-gen16761",
+    "designerId": "2c632f7c-d1c0-4607-93df-f8f57560ae27",
+    "cn": [
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field",
+                "name": "title"
+            },
+            "designerId": "fb9b9a0a-df04-4d7a-bc6f-f0bb77c6e303"
+        }
+    ]
+}

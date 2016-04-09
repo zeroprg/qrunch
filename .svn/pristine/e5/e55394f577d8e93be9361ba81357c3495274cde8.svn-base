@@ -1,0 +1,13 @@
+{
+    "type": "cssresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "url": "resources/css/slider.css"
+    },
+    "id": "ExtBox1-ext-gen13932",
+    "designerId": "7da912d2-fe21-40a8-b0f4-32459f983fb2"
+}

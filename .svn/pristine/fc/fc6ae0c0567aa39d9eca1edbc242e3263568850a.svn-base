@@ -1,0 +1,13 @@
+{
+    "type": "jsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "url": "resources/js/InfCarousel.js"
+    },
+    "id": "ExtBox1-ext-gen4011",
+    "designerId": "5b10f3e1-4522-4c88-84ab-dfbe417d0e43"
+}

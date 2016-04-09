@@ -1,0 +1,141 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Interests",
+        "designer|userAlias": "Interests",
+        "designer|displayName": "Interests",
+        "cls": [
+            "bg"
+        ],
+        "data": null,
+        "height": null,
+        "id": "interests",
+        "layout": "vbox",
+        "scrollable": [
+            "{",
+            "  direction: 'vertical',",
+            "  directionLock: true,",
+            "}"
+        ]
+    },
+    "configAlternates": {
+        "scrollable": "object"
+    },
+    "id": "ExtBox1-ext-gen1928",
+    "designerId": "05de8f56-2836-402d-8517-4fecd0e975ba",
+    "cn": [
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyContainer21",
+                "designer|displayName": "input",
+                "docked": "top",
+                "height": "40px",
+                "style": "margin: 5% 5% 2% 5%; padding: 0;",
+                "layout": "hbox"
+            },
+            "designerId": "1a04cc5b-289f-438e-8be6-fadbe91867c5",
+            "cn": [
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTextField1",
+                        "cls": [
+                            "interest-txt"
+                        ],
+                        "disabled": true,
+                        "label": null
+                    },
+                    "designerId": "072ccb3f-7553-496f-a5f7-fd8123980af6"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton7",
+                        "baseCls": "interest-plus-btn",
+                        "pressedCls": "interest-plus-btn-pressed",
+                        "text": null
+                    },
+                    "designerId": "2972444f-cea1-4606-94c2-87c9b0841906"
+                }
+            ]
+        },
+        {
+            "type": "label",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyLabel3",
+                "baseCls": "left-lbl",
+                "docked": "top",
+                "html": "Interests"
+            },
+            "designerId": "a14644fc-fcb6-4b11-853e-573d1c70545c"
+        },
+        {
+            "type": "list",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "designer|userClassName": "MyList",
+                "designer|displayName": "interest list",
+                "cls": [
+                    "interest-list"
+                ],
+                "itemCls": "interest-item",
+                "selectedCls": "actived-interest",
+                "store": "Interests"
+            },
+            "designerId": "0c0f4c6a-2b70-451d-8df8-db642c9e68c9",
+            "cn": [
+                {
+                    "type": "template",
+                    "reference": {
+                        "name": "itemTpl",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "itemTpl",
+                        "implHandler": [
+                            "{title}",
+                            "<div class=\"interest-pop-down\">",
+                            "    <button>src</button>",
+                            "    <button>del</button>",
+                            "</div>"
+                        ],
+                        "designer|displayName": null
+                    },
+                    "designerId": "5a3c689d-e459-4d36-86a3-db9cd8b4d9e7"
+                }
+            ]
+        }
+    ]
+}

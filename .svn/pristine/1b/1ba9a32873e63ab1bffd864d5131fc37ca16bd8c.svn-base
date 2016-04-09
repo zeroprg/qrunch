@@ -1,0 +1,29 @@
+{
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "AppController"
+    },
+    "id": "ExtBox1-ext-gen14361",
+    "designerId": "b075a8f7-70ca-4b20-b18e-f387e6762dc8",
+    "cn": [
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "rootView",
+                "ref": "rootView",
+                "selector": "#root-view"
+            },
+            "designerId": "37310bd4-4358-4e77-b554-bca06e1ffc65"
+        }
+    ]
+}

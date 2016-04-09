@@ -1,0 +1,21 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "SlidingView",
+        "designer|userAlias": "SlidingView",
+        "designer|displayName": "Sliding View",
+        "cls": [
+            "bg"
+        ],
+        "id": "sliding-view",
+        "layout": "hbox",
+        "scrollable": false
+    },
+    "id": "ExtBox1-ext-gen1890",
+    "designerId": "f1fe8638-46e5-434c-852f-f0541db85233"
+}

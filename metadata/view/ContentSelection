@@ -1,0 +1,237 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ContentSelection",
+        "designer|userAlias": "ContentSelection",
+        "designer|displayName": "Content Selection",
+        "cls": [
+            "bg"
+        ],
+        "height": null,
+        "itemId": "content-selection",
+        "layout": "vbox",
+        "scrollable": false
+    },
+    "configAlternates": {
+        "scrollable": "boolean"
+    },
+    "id": "ExtBox1-ext-gen1902",
+    "designerId": "175ed56b-c8ba-4059-a6e2-05b1770dd667",
+    "cn": [
+        {
+            "type": "label",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyLabel",
+                "baseCls": "centered-lbl",
+                "docked": "top",
+                "html": "Content Selection"
+            },
+            "designerId": "3b9e94fa-efd3-4894-b62c-4f87a10081b8"
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyContainer8",
+                "docked": "top",
+                "height": "50px",
+                "layout": "hbox"
+            },
+            "designerId": "4ffb661f-20b8-4021-a0ee-1f92084ac1f9",
+            "cn": [
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTextField",
+                        "baseCls": "",
+                        "cls": [
+                            "overlay-txt"
+                        ],
+                        "label": "Field"
+                    },
+                    "designerId": "cbef9305-84a0-42bd-b29b-e748486299ad"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton6",
+                        "baseCls": "plus-btn",
+                        "pressedCls": "highlight-pressed",
+                        "text": null
+                    },
+                    "designerId": "96303f74-1b4f-4edf-997d-82e072f99c15"
+                }
+            ]
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "designer|userClassName": "MyContainer9",
+                "style": "margin-top: 100px;",
+                "ui": "",
+                "scrollable": true
+            },
+            "designerId": "22c4a46a-8a39-4b43-8921-ce54e05a5d61",
+            "cn": [
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer10",
+                        "baseCls": "left-content-box",
+                        "height": "150px",
+                        "html": "whitebox",
+                        "width": "49.5%"
+                    },
+                    "designerId": "c2cc4889-f8be-4498-8c03-c2c5a18cfacd"
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer10",
+                        "baseCls": "left-content-box",
+                        "height": "150px",
+                        "html": "whitebox",
+                        "width": "49.5%"
+                    },
+                    "designerId": "f25dfe32-2774-4e6a-8287-f7984d35203b"
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer10",
+                        "baseCls": "left-content-box",
+                        "height": "150px",
+                        "html": "whitebox",
+                        "width": "49.5%"
+                    },
+                    "designerId": "35ae07c6-5161-4407-a8eb-6331a3d8d343"
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer10",
+                        "baseCls": "left-content-box",
+                        "height": "150px",
+                        "html": "whitebox",
+                        "width": "49.5%"
+                    },
+                    "designerId": "58e524c6-dee9-4b4c-9387-3abd1fccf04f"
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer10",
+                        "baseCls": "left-content-box",
+                        "height": "150px",
+                        "html": "whitebox",
+                        "width": "49.5%"
+                    },
+                    "designerId": "f86131e1-bf4d-47c3-aecc-81f5bf0386a7"
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer10",
+                        "baseCls": "left-content-box",
+                        "height": "150px",
+                        "html": "whitebox",
+                        "width": "49.5%"
+                    },
+                    "designerId": "b8886843-358c-4164-89a1-cff948e20615"
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer10",
+                        "baseCls": "left-content-box",
+                        "height": "150px",
+                        "html": "whitebox",
+                        "width": "49.5%"
+                    },
+                    "designerId": "574496ce-29fc-405e-b813-913ba1171128"
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer10",
+                        "baseCls": "left-content-box",
+                        "height": "150px",
+                        "html": "whitebox",
+                        "width": "49.5%"
+                    },
+                    "designerId": "beafdf1b-7acd-4262-bae0-c09ab99e248e"
+                }
+            ]
+        }
+    ]
+}

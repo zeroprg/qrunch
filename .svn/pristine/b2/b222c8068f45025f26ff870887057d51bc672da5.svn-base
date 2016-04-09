@@ -1,0 +1,197 @@
+{
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PersonalPageController"
+    },
+    "id": "ExtBox1-ext-gen24569",
+    "designerId": "8aa574b7-9c29-4f98-aa90-1ad47fb47cc2",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "showStreamContent",
+                "fn": "showStreamContent",
+                "implHandler": [
+                    "this.getPersonalPageContent().setActiveItem(0);"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#stream-button"
+            },
+            "designerId": "f7ce30ae-ac15-45ee-96c8-b223db072df8"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "showLikesContent",
+                "fn": "showLikesContent",
+                "implHandler": [
+                    "this.getPersonalPageContent().setActiveItem(1);"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#likes-button"
+            },
+            "designerId": "d7ffe335-37b7-41df-9d9a-b85f936d6639"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "showCommunityContent",
+                "fn": "showCommunityContent",
+                "implHandler": [
+                    "this.getPersonalPageContent().setActiveItem(2);"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#community-button"
+            },
+            "designerId": "603397a6-3d89-47d4-8432-8ad52a418ca5"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "personalPageContent",
+                "ref": "personalPageContent",
+                "selector": "#personal-page-content"
+            },
+            "designerId": "938f6f2d-83c2-4840-bdfd-f5a9ade73722"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "changePressedButton",
+                "fn": "changePressedButton",
+                "implHandler": [
+                    "segment = this.getPersonalSegment();",
+                    "segment.setPressedButtons(segment.getItems().items[container.indexOf(value)-1]);"
+                ],
+                "name": "activeitemchange",
+                "designer|targetType": "Ext.carousel.Carousel",
+                "designer|controlQuery": "#personal-page-content"
+            },
+            "designerId": "2eb59b01-a0f6-452e-acbc-5569e734830b"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "personalSegment",
+                "ref": "personalSegment",
+                "selector": "#personal-segment"
+            },
+            "designerId": "6d13274a-e86e-43bf-bb05-1043f975b915"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onCarouselMove",
+                "fn": "onCarouselMove",
+                "implHandler": [
+                    ""
+                ],
+                "name": "move",
+                "designer|targetType": "Ext.carousel.Carousel",
+                "designer|controlQuery": "carousel"
+            },
+            "designerId": "703d1608-29dc-476b-a237-4723db1d7e6d"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "preventMassSwipe",
+                "fn": "preventMassSwipe",
+                "designer|params": [
+                    "target"
+                ],
+                "implHandler": [
+                    "var carousel = this.getPersonalPageContent();",
+                    "element  = carousel.element;",
+                    "",
+                    "element.un({",
+                    "  dragstart : 'onDragStart',",
+                    "  drag      : 'onDrag',",
+                    "  dragend   : 'onDragEnd',",
+                    "  scope     : carousel",
+                    "});"
+                ],
+                "name": "dragstart",
+                "designer|controlQuery": "InfCarousel"
+            },
+            "designerId": "1c6afeb0-2f0d-487a-8cf3-7ff4d828529c"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "enableMassSwipe",
+                "fn": "enableMassSwipe",
+                "designer|params": [
+                    "target"
+                ],
+                "implHandler": [
+                    "var carousel = this.getPersonalPageContent();",
+                    "element  = carousel.element;",
+                    "",
+                    "element.on({",
+                    "  dragstart : 'onDragStart',",
+                    "  drag      : 'onDrag',",
+                    "  dragend   : 'onDragEnd',",
+                    "  scope     : carousel",
+                    "});"
+                ],
+                "name": "dragend",
+                "designer|controlQuery": "InfCarousel"
+            },
+            "designerId": "d1ba4a2e-e63c-4897-bceb-801dae011f57"
+        }
+    ]
+}

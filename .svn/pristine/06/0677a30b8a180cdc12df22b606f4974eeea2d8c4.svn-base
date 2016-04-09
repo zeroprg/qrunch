@@ -1,0 +1,254 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "SliderView",
+        "designer|userAlias": "SliderView",
+        "designer|displayName": "Slider View",
+        "hidden": true,
+        "id": "slider-view",
+        "width": "250px",
+        "layout": "card",
+        "scrollable": null
+    },
+    "id": "ExtBox1-ext-gen1891",
+    "designerId": "42d4b6bb-8d19-4e70-80e9-2e087352c4a6",
+    "cn": [
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyContainer3",
+                "cls": [
+                    "bg"
+                ],
+                "html": null,
+                "id": "slider-view-content",
+                "padding": null,
+                "layout": "vbox",
+                "scrollable": "vertical"
+            },
+            "designerId": "e6cce1ba-2546-44df-b72d-10225a4c3bfd",
+            "cn": [
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyPanel5",
+                        "designer|displayName": "Avatar",
+                        "height": "255px",
+                        "html": "<div style=\"height: 255px; background-repeat: no-repeat; background-size: 100%; background-image: url(resources/images/juve.png);\"><div style=\"position: absolute; bottom: 0; background-color: rgba(0,0,0,0.4); width: 100%; color: white; font-size: 20px; font-weight: bold; padding: 5px 10px; text-align: center;\">BASHIR OSMAN</div></div>",
+                        "itemId": "mypanel15",
+                        "left": null,
+                        "style": null,
+                        "width": null
+                    },
+                    "designerId": "361422c7-5a51-4a2d-a9cd-9d836bb2533b",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "showPersonalStream",
+                                "fn": "showPersonalStream",
+                                "designer|params": [
+                                    "panel"
+                                ],
+                                "implHandler": [
+                                    "var controller = qrunch.app.getController('SliderController');",
+                                    "controller.showPersonalStream();",
+                                    "",
+                                    "console.log('asd');"
+                                ],
+                                "element": "element",
+                                "name": "tap"
+                            },
+                            "designerId": "9fb5e2be-3ff8-45c1-a390-f907abd67b59"
+                        }
+                    ]
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer26",
+                        "height": 80,
+                        "width": "100%",
+                        "layout": "hbox"
+                    },
+                    "designerId": "803a5fc3-f9df-4fc2-8e9c-06a2cbcaab7f",
+                    "cn": [
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "designer|userClassName": "MyButton15",
+                                "baseCls": "slider-btn",
+                                "cls": "slider-interest-btn",
+                                "id": null,
+                                "itemId": "interests",
+                                "width": "50%",
+                                "text": "interests"
+                            },
+                            "designerId": "958474de-f986-4c86-9f0d-34dd9607a839"
+                        },
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyButton9",
+                                "baseCls": "slider-btn",
+                                "cls": "slider-percentage-btn",
+                                "itemId": "mybutton9",
+                                "width": "50%",
+                                "text": "45%"
+                            },
+                            "designerId": "094bc1bd-b141-406b-81fe-59af1b5f94d4",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "showFriendProfile",
+                                        "fn": "showFriendProfile",
+                                        "implHandler": [
+                                            "qrunch.app.getController('SliderController').showFriendProfile();"
+                                        ],
+                                        "name": "tap"
+                                    },
+                                    "designerId": "91c7c4aa-019b-4d11-9ca4-b7b63b13527f"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer26",
+                        "height": 80,
+                        "width": "100%",
+                        "layout": "hbox"
+                    },
+                    "designerId": "2f2b8c31-ac34-49e6-9d5f-59b55717027e",
+                    "cn": [
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "designer|userClassName": "MyButton15",
+                                "designer|displayName": "followers",
+                                "baseCls": "slider-btn",
+                                "cls": "slider-followers-btn",
+                                "id": null,
+                                "itemId": "followers",
+                                "width": "50%",
+                                "text": "<div class=\"follow-label\">FOLLOWERS</div><div class=\"follow-number\">450</div>"
+                            },
+                            "designerId": "dfeef32e-adc4-4c91-ac69-edc8e7c65ebf",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "onFollowersTap",
+                                        "fn": "onFollowersTap",
+                                        "implHandler": [
+                                            "qrunch.app.getController('SliderController').showFollow();"
+                                        ],
+                                        "name": "tap"
+                                    },
+                                    "designerId": "5db2157f-efb2-4573-8d5f-3392c9410e9b"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyButton9",
+                                "designer|displayName": "following",
+                                "baseCls": "slider-btn",
+                                "cls": "slider-following-btn",
+                                "itemId": "following",
+                                "width": "50%",
+                                "text": "<div class=\"follow-label\">FOLLOWING</div><div class=\"follow-number\">900</div>"
+                            },
+                            "designerId": "0a69e8ae-4ac6-4165-97b1-9249d24a36fe",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "onFollowingTap",
+                                        "fn": "onFollowingTap",
+                                        "implHandler": [
+                                            "qrunch.app.getController('SliderController').showPersonalStream();"
+                                        ],
+                                        "name": "tap"
+                                    },
+                                    "designerId": "50a71dce-9f0d-4087-9162-e9a4ca631a45"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

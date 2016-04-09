@@ -1,0 +1,148 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "RootView",
+        "designer|userAlias": "RootView",
+        "designer|initialView": true,
+        "cls": [
+            "bg"
+        ],
+        "id": "root-view",
+        "layout": "card"
+    },
+    "id": "ExtBox1-ext-gen2930",
+    "designerId": "16cfc23b-b4ca-465c-9c52-e2ea71a1a1b7",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "82c259b9-6eed-4100-972d-b865cdb40aa1",
+            "masterInstanceId": "ExtBox1-ext-gen1876"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "5bfc0872-16a4-45c1-a10b-01f142847f75",
+            "masterInstanceId": "ExtBox1-ext-gen1890",
+            "cn": [
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "designerId": "e68b6d33-e586-4304-ae64-2b40eb6ad35e",
+                    "masterInstanceId": "ExtBox1-ext-gen1891"
+                },
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "designerId": "545d2aa1-7eb2-42bc-b682-12b5d47bd889",
+                    "masterInstanceId": "ExtBox1-ext-gen1893",
+                    "cn": [
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "c8ceeedd-d374-4358-806f-a07711a6a4fe",
+                            "masterInstanceId": "ExtBox1-ext-gen1897"
+                        },
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "82222f7a-6bc0-4cf4-93ad-aed3f88caaa1",
+                            "masterInstanceId": "ExtBox1-ext-gen1901",
+                            "cn": [
+                                {
+                                    "type": "linkedinstance",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "designerId": "f62a7dee-74fc-4171-80d2-a5fd4084ec42",
+                                    "masterInstanceId": "ExtBox1-ext-gen1902"
+                                },
+                                {
+                                    "type": "linkedinstance",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "designerId": "46cec5c6-79ba-4d67-a5ac-39a55841d0b0",
+                                    "masterInstanceId": "ExtBox1-ext-gen1916"
+                                },
+                                {
+                                    "type": "linkedinstance",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "designerId": "dd7bca6e-bf65-4c23-921f-4325d15dea81",
+                                    "masterInstanceId": "ExtBox1-ext-gen1921"
+                                },
+                                {
+                                    "type": "linkedinstance",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "designerId": "88810599-c822-4d31-9b8d-98ff8defd769",
+                                    "masterInstanceId": "ExtBox1-ext-gen1928"
+                                },
+                                {
+                                    "type": "linkedinstance",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "designerId": "af14a63a-ebd2-48a8-8cf7-8b6ce30613e1",
+                                    "masterInstanceId": "ExtBox1-ext-gen1935"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "d58dd21c-8ce1-4901-a1a1-506f186bb66a",
+            "masterInstanceId": "ExtBox1-ext-gen5247"
+        }
+    ]
+}

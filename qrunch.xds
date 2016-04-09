@@ -1,0 +1,259 @@
+{
+    "name": "qrunch",
+    "settings": {
+        "urlPrefix": "http://localhost/qrunch/qrunch",
+        "spacesToIndent": 2,
+        "exportPath": "/Users/nmt119/THIEM/projects/qrunch/publish",
+        "sdkPath": "/Users/nmt119/THIEM/projects/touch",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 678,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "touch21",
+    "topInstanceFileMap": {
+        "c3c00b93-a581-4d4e-8cbd-faa909ce31d8": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "16cfc23b-b4ca-465c-9c52-e2ea71a1a1b7": {
+            "paths": [
+                "metadata/view/RootView",
+                "app/view/override/RootView.js",
+                "app/view/RootView.js"
+            ],
+            "className": "RootView"
+        },
+        "04adc8cb-41e5-4d78-98df-fe602676b1d1": {
+            "paths": [
+                "metadata/resource/packager",
+                "",
+                "packager.json"
+            ],
+            "className": "packager"
+        },
+        "7da912d2-fe21-40a8-b0f4-32459f983fb2": {
+            "paths": [
+                "metadata/resource/css"
+            ],
+            "className": "css"
+        },
+        "b075a8f7-70ca-4b20-b18e-f387e6762dc8": {
+            "paths": [
+                "metadata/controller/AppController",
+                "app/controller/override/AppController.js",
+                "app/controller/AppController.js"
+            ],
+            "className": "AppController"
+        },
+        "4e7ffd0a-955a-4906-b09b-0c2fc94d33bd": {
+            "paths": [
+                "metadata/resource/css1"
+            ],
+            "className": "css1"
+        },
+        "4555d199-2e9e-4188-a2b9-fdff430d24f7": {
+            "paths": [
+                "metadata/controller/SliderController",
+                "app/controller/override/SliderController.js",
+                "app/controller/SliderController.js"
+            ],
+            "className": "SliderController"
+        },
+        "42d4b6bb-8d19-4e70-80e9-2e087352c4a6": {
+            "paths": [
+                "metadata/view/SliderView",
+                "app/view/override/SliderView.js",
+                "app/view/SliderView.js"
+            ],
+            "className": "SliderView"
+        },
+        "1b5bbb84-ce69-41a9-969d-a6748af219ac": {
+            "paths": [
+                "metadata/view/MainView",
+                "app/view/override/MainView.js",
+                "app/view/MainView.js"
+            ],
+            "className": "MainView"
+        },
+        "f1fe8638-46e5-434c-852f-f0541db85233": {
+            "paths": [
+                "metadata/view/SlidingView",
+                "app/view/override/SlidingView.js",
+                "app/view/SlidingView.js"
+            ],
+            "className": "SlidingView"
+        },
+        "3ada01da-e287-4cc9-8ae8-0781ec976db1": {
+            "paths": [
+                "metadata/view/LoginView",
+                "app/view/override/LoginView.js",
+                "app/view/LoginView.js"
+            ],
+            "className": "LoginView"
+        },
+        "5b10f3e1-4522-4c88-84ab-dfbe417d0e43": {
+            "paths": [
+                "metadata/resource/js"
+            ],
+            "className": "js"
+        },
+        "d8109c4a-c63e-4dcd-8f07-213af807848b": {
+            "paths": [
+                "metadata/view/InfCarousel",
+                "app/view/override/InfCarousel.js",
+                "app/view/InfCarousel.js"
+            ],
+            "className": "InfCarousel"
+        },
+        "2c632f7c-d1c0-4607-93df-f8f57560ae27": {
+            "paths": [
+                "metadata/store/Interests",
+                "app/store/override/Interests.js",
+                "app/store/Interests.js"
+            ],
+            "className": "Interests"
+        },
+        "f742dc99-e4ea-422a-bdb2-27f577bddf31": {
+            "paths": [
+                "metadata/store/Followers",
+                "app/store/override/Followers.js",
+                "app/store/Followers.js"
+            ],
+            "className": "Followers"
+        },
+        "8aa574b7-9c29-4f98-aa90-1ad47fb47cc2": {
+            "paths": [
+                "metadata/controller/PersonalPageController",
+                "app/controller/override/PersonalPageController.js",
+                "app/controller/PersonalPageController.js"
+            ],
+            "className": "PersonalPageController"
+        },
+        "e9ba1bda-fd03-4049-b96e-fe323dc30d66": {
+            "paths": [
+                "metadata/view/TopBar",
+                "app/view/override/TopBar.js",
+                "app/view/TopBar.js"
+            ],
+            "className": "TopBar"
+        },
+        "d3cd57fc-98bf-42f1-a86d-3ff7262806c4": {
+            "paths": [
+                "metadata/view/ContentView",
+                "app/view/override/ContentView.js",
+                "app/view/ContentView.js"
+            ],
+            "className": "ContentView"
+        },
+        "dc4c8ed6-aac4-4082-b76e-bdc38a6e853c": {
+            "paths": [
+                "metadata/view/PersonalStream",
+                "app/view/override/PersonalStream.js",
+                "app/view/PersonalStream.js"
+            ],
+            "className": "PersonalStream"
+        },
+        "1b6b53da-0c86-475a-801e-2d16cbcc25f7": {
+            "paths": [
+                "metadata/view/FriendProfile",
+                "app/view/override/FriendProfile.js",
+                "app/view/FriendProfile.js"
+            ],
+            "className": "FriendProfile"
+        },
+        "05de8f56-2836-402d-8517-4fecd0e975ba": {
+            "paths": [
+                "metadata/view/Interests",
+                "app/view/override/Interests.js",
+                "app/view/Interests.js"
+            ],
+            "className": "Interests"
+        },
+        "f4ab793d-0c88-404a-9cf1-de0c09bbabf3": {
+            "paths": [
+                "metadata/view/Follow",
+                "app/view/override/Follow.js",
+                "app/view/Follow.js"
+            ],
+            "className": "Follow"
+        },
+        "175ed56b-c8ba-4059-a6e2-05b1770dd667": {
+            "paths": [
+                "metadata/view/ContentSelection",
+                "app/view/override/ContentSelection.js",
+                "app/view/ContentSelection.js"
+            ],
+            "className": "ContentSelection"
+        },
+        "46992029-1507-43da-8efc-63f31ec7fc29": {
+            "paths": [
+                "metadata/controller/LoginViewController",
+                "app/controller/override/LoginViewController.js",
+                "app/controller/LoginViewController.js"
+            ],
+            "className": "LoginViewController"
+        },
+        "7cf5533d-72c9-44e7-83cf-fce64ed6ac0c": {
+            "paths": [
+                "metadata/view/RegistrationView",
+                "app/view/override/RegistrationView.js",
+                "app/view/RegistrationView.js"
+            ],
+            "className": "RegistrationView"
+        },
+        "4e27eee8-b5ff-4e34-b99d-e972017c8f14": {
+            "paths": [
+                "metadata/controller/RegistrationViewController",
+                "app/controller/override/RegistrationViewController.js",
+                "app/controller/RegistrationViewController.js"
+            ],
+            "className": "RegistrationViewController"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "16cfc23b-b4ca-465c-9c52-e2ea71a1a1b7",
+            "3ada01da-e287-4cc9-8ae8-0781ec976db1",
+            "7cf5533d-72c9-44e7-83cf-fce64ed6ac0c",
+            "f1fe8638-46e5-434c-852f-f0541db85233",
+            "42d4b6bb-8d19-4e70-80e9-2e087352c4a6",
+            "1b5bbb84-ce69-41a9-969d-a6748af219ac",
+            "e9ba1bda-fd03-4049-b96e-fe323dc30d66",
+            "d3cd57fc-98bf-42f1-a86d-3ff7262806c4",
+            "175ed56b-c8ba-4059-a6e2-05b1770dd667",
+            "dc4c8ed6-aac4-4082-b76e-bdc38a6e853c",
+            "1b6b53da-0c86-475a-801e-2d16cbcc25f7",
+            "05de8f56-2836-402d-8517-4fecd0e975ba",
+            "f4ab793d-0c88-404a-9cf1-de0c09bbabf3",
+            "d8109c4a-c63e-4dcd-8f07-213af807848b"
+        ],
+        "store": [
+            "2c632f7c-d1c0-4607-93df-f8f57560ae27",
+            "f742dc99-e4ea-422a-bdb2-27f577bddf31"
+        ],
+        "controller": [
+            "b075a8f7-70ca-4b20-b18e-f387e6762dc8",
+            "4555d199-2e9e-4188-a2b9-fdff430d24f7",
+            "8aa574b7-9c29-4f98-aa90-1ad47fb47cc2",
+            "46992029-1507-43da-8efc-63f31ec7fc29",
+            "4e27eee8-b5ff-4e34-b99d-e972017c8f14"
+        ],
+        "model": [],
+        "resource": [
+            "c3c00b93-a581-4d4e-8cbd-faa909ce31d8",
+            "04adc8cb-41e5-4d78-98df-fe602676b1d1",
+            "7da912d2-fe21-40a8-b0f4-32459f983fb2",
+            "4e7ffd0a-955a-4906-b09b-0c2fc94d33bd",
+            "5b10f3e1-4522-4c88-84ab-dfbe417d0e43"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

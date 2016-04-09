@@ -1,0 +1,79 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "FriendProfile",
+        "designer|userAlias": "FriendProfile",
+        "designer|displayName": "Friend Profile",
+        "cls": [
+            "bg"
+        ],
+        "height": null,
+        "id": "friend-profile",
+        "layout": "vbox",
+        "scrollable": [
+            "{",
+            "  direction: 'vertical',",
+            "  directionLock: true,",
+            "}"
+        ]
+    },
+    "configAlternates": {
+        "scrollable": "object"
+    },
+    "id": "ExtBox1-ext-gen1921",
+    "designerId": "1b6b53da-0c86-475a-801e-2d16cbcc25f7",
+    "cn": [
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel5",
+                "designer|displayName": "Avatar",
+                "height": "155px",
+                "html": "<div style=\"height: 155px; background-image: url(resources/images/bashir.png);\"><div style=\"position: absolute; bottom: 0; background-color: rgba(0,0,0,0.4); width: 100%; color: white; font-size: 20px; font-weight: bold; padding: 5px 10px;\">Bashir Osman</div></div>",
+                "left": null,
+                "style": "margin: 4%;"
+            },
+            "designerId": "d2c87dac-d8c9-4ea7-85aa-c016128da16d"
+        },
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel6",
+                "designer|displayName": "Stats",
+                "height": "50px",
+                "html": "<div style=\"text-align: center; color: white; font-weight: bold;\">Statistics Placeholder</div>",
+                "styleHtmlContent": true
+            },
+            "designerId": "385859aa-c7cc-4dce-9e9e-57812a80369b"
+        },
+        {
+            "type": "label",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyLabel",
+                "baseCls": "centered-lbl",
+                "html": "Stream"
+            },
+            "designerId": "7cd99bc3-c956-412e-95c4-5852de250adc"
+        }
+    ]
+}

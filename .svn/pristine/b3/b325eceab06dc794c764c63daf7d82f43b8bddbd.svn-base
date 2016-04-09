@@ -1,0 +1,176 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "RegistrationView",
+        "designer|userAlias": "registrationview",
+        "designer|displayName": "Login View",
+        "layout": "card"
+    },
+    "id": "ExtBox1-ext-gen5247",
+    "designerId": "7cf5533d-72c9-44e7-83cf-fce64ed6ac0c",
+    "cn": [
+        {
+            "type": "formpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyFormPanel",
+                "designer|displayName": "Registration Form",
+                "cls": [
+                    "login-form"
+                ],
+                "styleHtmlContent": true,
+                "scrollable": [
+                    "false",
+                    ""
+                ]
+            },
+            "designerId": "5a190e53-332e-4d6a-8354-5e68630265ec",
+            "cn": [
+                {
+                    "type": "label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyLabel3",
+                        "html": "REGISTRATION PAGE",
+                        "style": "color: white; margin-bottom: 10px;"
+                    },
+                    "designerId": "3436a35d-9689-48a4-b4ff-20b5515bdb4f"
+                },
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTextField4",
+                        "id": "registration-view-username",
+                        "style": "margin-bottom: 4%; margin-left: 10%;",
+                        "width": "80%",
+                        "label": "&nbsp;",
+                        "labelCls": "email-field-label",
+                        "labelWidth": "45px",
+                        "name": "name",
+                        "placeHolder": "Username"
+                    },
+                    "designerId": "e2121c90-e4c9-4411-9387-e537629b0022"
+                },
+                {
+                    "type": "emailfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyEmailField",
+                        "hidden": true,
+                        "id": "registration-view-email",
+                        "style": "margin-bottom: 4%; margin-left: 10%;",
+                        "width": "80%",
+                        "label": "&nbsp;",
+                        "labelCls": "email-field-label",
+                        "labelWidth": "45px",
+                        "name": "name",
+                        "placeHolder": "Email"
+                    },
+                    "designerId": "66c3dcd8-e2b1-4cb0-b2cb-dd1e6710595c"
+                },
+                {
+                    "type": "passwordfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyPasswordField",
+                        "id": "registration-view-password",
+                        "style": "margin-bottom: 4%; margin-left: 10%;",
+                        "width": "80%",
+                        "label": "&nbsp;",
+                        "labelCls": "password-field-label",
+                        "labelWidth": "45px",
+                        "name": "password",
+                        "placeHolder": "Password"
+                    },
+                    "designerId": "1cb5c79d-528d-4cb6-8489-ca715dba1c6a"
+                },
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTextField2",
+                        "id": "registration-view-firstname",
+                        "style": "margin-bottom: 4%; margin-left: 10%;",
+                        "width": "80%",
+                        "label": "&nbsp;",
+                        "labelCls": "password-field-label",
+                        "labelWidth": "45px",
+                        "name": "password",
+                        "placeHolder": "First Name"
+                    },
+                    "designerId": "205eb758-adba-45dd-9753-d4a57f50964c"
+                },
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTextField3",
+                        "id": "registration-view-lastname",
+                        "style": "margin-bottom: 4%; margin-left: 10%;",
+                        "width": "80%",
+                        "label": "&nbsp;",
+                        "labelCls": "password-field-label",
+                        "labelWidth": "45px",
+                        "name": "password",
+                        "placeHolder": "Last Name"
+                    },
+                    "designerId": "e2a36c16-5b10-4b65-bcdd-20dd0d6d9e7d"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton1",
+                        "designer|displayName": null,
+                        "baseCls": "login-btn",
+                        "id": "registration-view-signup",
+                        "itemId": "mybutton1",
+                        "style": "margin-left: 10%; margin-top: 10px;",
+                        "width": "80%",
+                        "pressedCls": "login-btn-pressed",
+                        "text": "Sign Up!"
+                    },
+                    "designerId": "f2437e1c-9baf-40a7-9c25-f74319eed63c"
+                }
+            ]
+        }
+    ]
+}

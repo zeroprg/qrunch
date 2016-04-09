@@ -1,0 +1,60 @@
+{
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "RegistrationViewController"
+    },
+    "id": "ExtBox1-ext-gen2465",
+    "designerId": "4e27eee8-b5ff-4e34-b99d-e972017c8f14",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "register",
+                "fn": "register",
+                "implHandler": [
+                    "Ext.Ajax.request({",
+                    "  url: 'http://thecrunch.ca:8080/CrunchRESTful/userProfile',",
+                    "  method: 'POST',",
+                    "  jsonData: {",
+                    "    _id: Ext.getCmp('registration-view-username').getValue(),",
+                    "    password: Ext.getCmp('registration-view-password').getValue(),",
+                    "    firstName: Ext.getCmp('registration-view-firstname').getValue(),",
+                    "    lastName: Ext.getCmp('registration-view-lastname').getValue()",
+                    "  },",
+                    "  success: function(response){",
+                    "    console.log(Ext.decode(response.responseText));",
+                    "  }",
+                    "})"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#registration-view-signup"
+            },
+            "designerId": "ef18c389-2fc5-4225-9173-1d4b3e1d6da3"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "rootView",
+                "ref": "rootView",
+                "selector": "#root-view"
+            },
+            "designerId": "a133d466-87c3-42a9-a984-a7deb00874ba"
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "type": "toolbar",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "TopBar",
+        "designer|userAlias": "TopBar",
+        "designer|displayName": "Topbar",
+        "baseCls": "top-bar",
+        "docked": "top",
+        "id": "topbar",
+        "scrollable": null
+    },
+    "id": "ExtBox1-ext-gen1897",
+    "designerId": "e9ba1bda-fd03-4049-b96e-fe323dc30d66",
+    "cn": [
+        {
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyButton",
+                "baseCls": "top-bar-left-btn",
+                "itemId": "slide-button",
+                "badgeCls": null,
+                "pressedCls": "highlight-pressed",
+                "text": null
+            },
+            "designerId": "b3b71b6d-b38e-4355-bafd-f078b6d2efb4"
+        },
+        {
+            "type": "spacer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MySpacer"
+            },
+            "designerId": "62c2327f-88d9-482b-8474-e06e4910c8bb"
+        },
+        {
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyButton12",
+                "baseCls": "search-btn",
+                "id": "search-btn",
+                "itemId": "mybutton13",
+                "pressedCls": "highlight-pressed",
+                "text": null
+            },
+            "designerId": "be596123-97dd-498a-87cd-ee06c9439b00",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "fillImages",
+                        "fn": "fillImages",
+                        "implHandler": [
+                            "var page = Ext.getCmp('friend-profile');",
+                            "",
+                            "Ext.data.JsonP.request({",
+                            "  url: 'http://pipes.yahoo.com/pipes/pipe.run?_id=6820d4a57377bbe8db29796694b2125f&_render=json&textinput1=milan&_render=jsonp',",
+                            "  callbackKey: '_callback',",
+                            "    ",
+                            "  success: function(response){",
+                            "    var result = response;",
+                            "",
+                            "    var total = result.count;",
+                            "",
+                            "    var index = 1;",
+                            "    var carousel = Ext.create('qrunch.view.InfCarousel');",
+                            "    console.log(result);",
+                            "    while (index < total){",
+                            "      if (index%10==0){",
+                            "        page.add(carousel);",
+                            "        carousel = Ext.create('qrunch.view.InfCarousel');",
+                            "      }",
+                            "",
+                            "      if (result.value.items[index][\"media:content\"]!=null){",
+                            "        var imgurl = result.value.items[index][\"media:content\"][\"url\"];",
+                            "        var html = \"<img src='\" + imgurl + \"' style='width: 100%; height: 100%'/>\";",
+                            "        carousel.add({xtype: 'panel', html: html});",
+                            "      }      ",
+                            "",
+                            "      index = index+1;",
+                            "    }",
+                            "  }",
+                            "});",
+                            ""
+                        ],
+                        "name": "tap"
+                    },
+                    "designerId": "af5128ed-aa0a-4df1-8ac4-ff484f4229d7"
+                }
+            ]
+        }
+    ]
+}

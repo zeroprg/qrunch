@@ -1,0 +1,69 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Followers",
+        "data": "[\n  {name: 'Gianlugi Buffon', avatar: 'resources/images/grumpycat.jpg', hashtag: 'buffon', fans: 123},\n  {name: 'Giorgio Chiellini', avatar: 'resources/images/grumpycat.jpg', hashtag: 'chiellini', fans: 123 },\n  {name: 'Leonardo Bonucci', avatar: 'resources/images/grumpycat.jpg', hashtag: 'bonucci', fans: 123 },\n  {name: 'Mirko Vucinic', avatar: 'resources/images/grumpycat.jpg', hashtag: 'vucinic', fans: 123 },\n]",
+        "storeId": "Followers"
+    },
+    "id": "ExtBox1-ext-gen3236",
+    "designerId": "f742dc99-e4ea-422a-bdb2-27f577bddf31",
+    "cn": [
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field",
+                "name": "name"
+            },
+            "designerId": "b00c9e69-d942-45ff-9e8a-a6ead025a89a"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field2",
+                "name": "hashtag"
+            },
+            "designerId": "4889d4fb-5a15-42fb-bd4c-b0bf54b50fb6"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field3",
+                "name": "fans"
+            },
+            "designerId": "97c85a68-f09f-4e93-82f3-dd7e451db7fd"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field4",
+                "name": "avatar"
+            },
+            "designerId": "4b37fa0d-ea43-4889-900c-bb182a2f0bf8"
+        }
+    ]
+}

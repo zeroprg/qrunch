@@ -1,0 +1,128 @@
+.logger {
+	margin-top: 10px;
+	height: 600px;
+	text-align: left;
+	font-size: 9pt;
+/*	overflow: auto;*/
+}
+
+.var-name {
+	display: inline-block;
+	background-color: #222;
+	height: 20px;
+	color: #ddd;
+	text-align: left;
+	padding-top: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+.var-data {
+	text-align: left;
+	color: #666;
+	padding-left: 20px;
+	word-wrap: break-word;
+}
+
+body.debugger {
+	background-color: #F5F6F7;
+	background-repeat: repeat-x;
+	background-image: url('top.jpg'), url('strip.jpg');
+	background-position: right top;
+}
+
+.wrapper {
+	/*width: 800px;*/
+}
+
+.iphone {
+	float: center;
+	background-image: url('iphone.png');
+	background-repeat: no-repeat;
+	display: block;
+	width: 393px;
+	height: 715px;
+	padding: 0px;
+}
+
+.console {
+	float: right;
+	height: 715px;
+	width: 400px;
+	font-family: 'lucida grande';
+	font-size: 12pt;
+	color: #444;
+}
+
+.screen {
+	padding-top: 93px;
+}
+
+.hotkey {
+	display: block;
+	width: 60px;
+	height: 60px;
+	margin-top: 20px;
+}
+
+body.navigation {
+	margin: 0;
+}
+
+.notification {
+	font-family: 'arial';
+	font-size: 12px;
+	font-weight: bolder;
+	color: #fff;
+	width: 100%;
+	height: 20px;
+	margin: 0;
+	padding-top: 3px;
+	padding-left: 3px;
+	background-color: #000;
+	opacity: 0.8;
+}
+
+.desktop {
+	position: relative;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+}
+
+.application {
+	display: inline-block;
+	padding: 10px;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.application > a {
+	text-decoration: none;
+}
+
+.application > a > img {
+	width: 64px;
+	height: 64px;
+	opacity: 0.8;
+}
+
+.application:hover > a > img {
+	opacity: 1;
+}
+
+.application > a > span {
+	display: block;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.8;
+	padding: 3px;
+	font-family: 'arial';
+	font-size: 12px;
+	font-weight: bolder;
+	border-radius: 10px;
+}

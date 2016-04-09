@@ -1,0 +1,391 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PersonalStream",
+        "designer|userAlias": "PersonalStream",
+        "designer|displayName": "Personal Stream",
+        "cls": [
+            "bg"
+        ],
+        "height": null,
+        "id": "personal-stream",
+        "layout": "card",
+        "scrollable": [
+            "{",
+            "  direction: 'vertical',",
+            "  directionLock: true,",
+            "}"
+        ]
+    },
+    "configAlternates": {
+        "scrollable": "object"
+    },
+    "id": "ExtBox1-ext-gen1916",
+    "designerId": "dc4c8ed6-aac4-4082-b76e-bdc38a6e853c",
+    "cn": [
+        {
+            "type": "segmentedbutton",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": null,
+                "container|pack": null,
+                "designer|userClassName": "MySegmentedButton1",
+                "docked": "top",
+                "height": "33px",
+                "id": "personal-segment",
+                "itemId": "",
+                "pressedCls": "personal-stream-btn-pressed"
+            },
+            "designerId": "b09e7f32-6935-4020-8c0e-0ed909cdf47d",
+            "cn": [
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "pressed": true,
+                        "designer|userClassName": "MyButton12",
+                        "baseCls": "personal-stream-btn",
+                        "itemId": "stream-button",
+                        "width": "33%",
+                        "pressedCls": "",
+                        "text": "Stream"
+                    },
+                    "designerId": "67648c54-1c90-4dea-b153-cd02b3698925"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton13",
+                        "baseCls": "personal-stream-btn",
+                        "id": "likes-button",
+                        "itemId": "mybutton13",
+                        "width": "33%",
+                        "pressedCls": null,
+                        "text": "Likes"
+                    },
+                    "designerId": "44cf6515-fe26-4200-94d5-74e2fb978562"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton14",
+                        "baseCls": "personal-stream-btn",
+                        "id": "community-button",
+                        "itemId": "mybutton14",
+                        "width": "33%",
+                        "pressedCls": null,
+                        "text": "Community"
+                    },
+                    "designerId": "efd06f6e-e0d7-43c7-8326-5f28fdab4727"
+                }
+            ]
+        },
+        {
+            "type": "carousel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyCarousel1",
+                "designer|displayName": "personal page content",
+                "cls": [
+                    "bg"
+                ],
+                "height": "100%",
+                "id": "personal-page-content",
+                "itemId": "mycarousel1",
+                "scrollable": null
+            },
+            "configAlternates": {
+                "scrollable": "object"
+            },
+            "designerId": "ce8332dc-a745-4121-9a68-c68f21739eb3",
+            "cn": [
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer23",
+                        "designer|displayName": "stream",
+                        "layout": "vbox",
+                        "scrollable": [
+                            "{",
+                            "  direction: 'vertical',",
+                            "  directionLock: true,",
+                            "}"
+                        ]
+                    },
+                    "configAlternates": {
+                        "scrollable": "object"
+                    },
+                    "designerId": "70085be5-6aa0-45a2-9ead-bc165f13d6e0",
+                    "cn": [
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "infcarousel14",
+                                "style": "background-color: rgb(100,100,100)"
+                            },
+                            "designerId": "0e0ed907-81da-4742-b4ee-cd4ff3743344",
+                            "masterInstanceId": "ExtBox1-ext-gen6884"
+                        },
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyPanel3",
+                                "height": "150px",
+                                "html": "a story goes here...",
+                                "style": "background-color: rgb(200,200,200)",
+                                "styleHtmlContent": true
+                            },
+                            "designerId": "ecfafd44-7474-4a3c-a8a1-a9c043a68d93"
+                        },
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "style": "background-color: rgb(150,150,150)"
+                            },
+                            "designerId": "528615ed-e905-4073-a2c7-d982ac7274b5",
+                            "masterInstanceId": "ExtBox1-ext-gen6884"
+                        }
+                    ]
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer23",
+                        "designer|displayName": "likes",
+                        "layout": "vbox",
+                        "scrollable": [
+                            "{",
+                            "  direction: 'vertical',",
+                            "  directionLock: true,",
+                            "}"
+                        ]
+                    },
+                    "configAlternates": {
+                        "scrollable": "object"
+                    },
+                    "designerId": "2b19ba59-d8ae-4786-b38f-dab2fa450378",
+                    "cn": [
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyPanel3",
+                                "height": "150px",
+                                "html": "a story goes here...",
+                                "style": "background-color: rgb(200,200,200)",
+                                "styleHtmlContent": true
+                            },
+                            "designerId": "f62235cc-489f-4493-a294-70c5711a805f"
+                        },
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyPanel3",
+                                "height": "150px",
+                                "html": "a story goes here...",
+                                "style": "background-color: rgb(180,180,180)",
+                                "styleHtmlContent": true
+                            },
+                            "designerId": "22d72b43-b762-4181-a60b-6f2a9f22b11d"
+                        },
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "style": "background-color: rgb(150,150,150)"
+                            },
+                            "designerId": "19481d5f-59ef-4678-bb88-144ded5c528a",
+                            "masterInstanceId": "ExtBox1-ext-gen6884"
+                        },
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyPanel3",
+                                "height": "150px",
+                                "html": "a story goes here...",
+                                "style": "background-color: rgb(160,160,160)",
+                                "styleHtmlContent": true
+                            },
+                            "designerId": "c80bad11-1d04-480f-a232-b00905099fe2"
+                        },
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyPanel3",
+                                "height": "150px",
+                                "html": "a story goes here...",
+                                "style": "background-color: rgb(140,140,140)",
+                                "styleHtmlContent": true
+                            },
+                            "designerId": "7ad9f131-762a-4b23-a4f0-3052947d1218"
+                        }
+                    ]
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer23",
+                        "designer|displayName": "community",
+                        "layout": "vbox",
+                        "scrollable": [
+                            "{",
+                            "  direction: 'vertical',",
+                            "  directionLock: true,",
+                            "}"
+                        ]
+                    },
+                    "configAlternates": {
+                        "scrollable": "object"
+                    },
+                    "designerId": "cc37547b-6bcb-4700-b4e6-1a71a19e5a58",
+                    "cn": [
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyPanel3",
+                                "height": "150px",
+                                "html": "a story goes here...",
+                                "style": "background-color:rgb(200,200,200)",
+                                "styleHtmlContent": true
+                            },
+                            "designerId": "21385831-1137-406f-b4ab-64416005a614"
+                        },
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyPanel3",
+                                "height": "150px",
+                                "html": "a story goes here...",
+                                "style": "background-color:rgb(180,180,180)",
+                                "styleHtmlContent": true
+                            },
+                            "designerId": "aff150ef-5cfd-46c4-8022-c782d5336b86"
+                        },
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyPanel3",
+                                "height": "150px",
+                                "html": "a story goes here...",
+                                "style": "background-color:rgb(160,160,160)",
+                                "styleHtmlContent": true
+                            },
+                            "designerId": "e1842e43-6606-4295-82e5-0598c987c345"
+                        },
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyPanel3",
+                                "height": "150px",
+                                "html": "a story goes here...",
+                                "style": "background-color:rgb(140,140,140)",
+                                "styleHtmlContent": true
+                            },
+                            "designerId": "cc488e25-ca95-407d-b588-fb5ca7a91ed0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

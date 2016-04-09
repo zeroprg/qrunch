@@ -1,0 +1,237 @@
+{
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "SliderController"
+    },
+    "id": "ExtBox1-ext-gen9890",
+    "designerId": "4555d199-2e9e-4188-a2b9-fdff430d24f7",
+    "cn": [
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "activateSlider",
+                "fn": "activateSlider",
+                "implHandler": [
+                    "this.getSliderView().show();",
+                    "",
+                    "var main = Ext.get('main-view');",
+                    "main.removeCls('in');",
+                    "main.addCls('out');",
+                    ""
+                ]
+            },
+            "designerId": "830ff192-b3eb-4742-8876-c6e45328861e"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "deactivateSlider",
+                "fn": "deactivateSlider",
+                "implHandler": [
+                    "this.getSliderView().hide();",
+                    "",
+                    "var main = Ext.get('main-view');",
+                    "main.removeCls('out');",
+                    "main.addCls('in'); ",
+                    ""
+                ]
+            },
+            "designerId": "4ca797d2-a1f5-4fdb-9809-e455b5d62e22"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "showContentSelection",
+                "fn": "showContentSelection",
+                "implHandler": [
+                    "this.getContentView().setActiveItem(0);",
+                    "",
+                    "this.getTopbar().show();",
+                    "",
+                    "this.deactivateSlider();"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#content-selection"
+            },
+            "designerId": "ae31c37c-151f-4ff2-9d6c-e5a6e6c9ff90"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "contentView",
+                "ref": "contentView",
+                "selector": "#content-view"
+            },
+            "designerId": "5e881990-3297-422b-9fe4-f4ae2efa2702"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "showInterests",
+                "fn": "showInterests",
+                "implHandler": [
+                    "this.deactivateSlider();",
+                    "this.getContentView().setActiveItem(3);"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#interests"
+            },
+            "designerId": "d69586ea-c9b3-4239-a975-4be6b7cb3ba9"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "showFriendProfile",
+                "fn": "showFriendProfile",
+                "implHandler": [
+                    "this.deactivateSlider();",
+                    "this.getContentView().setActiveItem(2);"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#friend-profile"
+            },
+            "designerId": "2263a2a2-06d2-473b-805e-e54f67d412ba"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "topbar",
+                "ref": "topbar",
+                "selector": "#topbar"
+            },
+            "designerId": "078b70e2-51ef-4470-9ad0-8eb5f2d43789"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "sliderView",
+                "ref": "sliderView",
+                "selector": "#slider-view"
+            },
+            "designerId": "3dbda829-5e70-467e-8d87-e297a3616d77"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "toggleSlider",
+                "fn": "toggleSlider",
+                "implHandler": [
+                    "if (this.getSliderView().isHidden()) {",
+                    "  this.getSliderView().show();   ",
+                    "}",
+                    "",
+                    "var main = Ext.get('main-view');",
+                    "",
+                    "if (main.hasCls('out')) {",
+                    "  main.removeCls('out');",
+                    "  main.addCls('in'); ",
+                    "} else {",
+                    "  main.removeCls('in');",
+                    "  main.addCls('out');",
+                    "}",
+                    ""
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#slide-button"
+            },
+            "designerId": "45d1896b-1f90-4520-bd90-9e7f41030629"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "showFollow",
+                "fn": "showFollow",
+                "implHandler": [
+                    "this.deactivateSlider();",
+                    "this.getContentView().setActiveItem(4);"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#follow"
+            },
+            "designerId": "95f82363-516e-475a-91d7-be5d25895c65"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "showPersonalStream",
+                "fn": "showPersonalStream",
+                "designer|params": [
+                    "panel"
+                ],
+                "implHandler": [
+                    "this.deactivateSlider();",
+                    "this.getContentView().setActiveItem(1);"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Panel",
+                "designer|controlQuery": "panel#mypanel15"
+            },
+            "designerId": "ff262fa0-37c6-49ed-868d-fbb8926962b1"
+        }
+    ]
+}

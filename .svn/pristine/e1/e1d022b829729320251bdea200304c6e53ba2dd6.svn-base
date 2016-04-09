@@ -1,0 +1,79 @@
+{
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "LoginViewController"
+    },
+    "id": "ExtBox1-ext-gen2863",
+    "designerId": "46992029-1507-43da-8efc-63f31ec7fc29",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "authorize",
+                "fn": "authorize",
+                "implHandler": [
+                    "Ext.Ajax.request({",
+                    "  url: 'http://thecrunch.ca:8080/CrunchRESTful/userProfile/login',",
+                    "  method: 'POST',",
+                    "  params: ",
+                    "  {",
+                    "    userId: Ext.getCmp('login-view-email').getValue(),",
+                    "    password: Ext.getCmp('login-view-password').getValue()",
+                    "  },",
+                    "  success: function(response){",
+                    "    console.log(Ext.decode(response.responseText));",
+                    "    Ext.getCmp('root-view').animateActiveItem(1, {type: 'fade'});",
+                    "  }",
+                    "})"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#login-button"
+            },
+            "designerId": "0e5edfaf-d2d4-41fd-a459-fc700068a5c4"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "showRegistrationView",
+                "fn": "showRegistrationView",
+                "implHandler": [
+                    "this.getRootView().animateActiveItem(2, {type: 'fade'});"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#signup-button"
+            },
+            "designerId": "9af0527a-4736-4657-8922-69e108ddc546"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "rootView",
+                "ref": "rootView",
+                "selector": "#root-view"
+            },
+            "designerId": "bd014803-fb6b-43b4-a904-103f39fb0870"
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "LoginView",
+        "designer|userAlias": "LoginView",
+        "designer|displayName": "Login View",
+        "layout": "card"
+    },
+    "id": "ExtBox1-ext-gen1876",
+    "designerId": "3ada01da-e287-4cc9-8ae8-0781ec976db1",
+    "cn": [
+        {
+            "type": "formpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyFormPanel",
+                "designer|displayName": "Login Form",
+                "cls": [
+                    "login-form"
+                ],
+                "styleHtmlContent": true,
+                "scrollable": [
+                    "false",
+                    ""
+                ]
+            },
+            "designerId": "cd66812c-1ae5-47a6-bad7-0d269a4486d3",
+            "cn": [
+                {
+                    "type": "image",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyImage",
+                        "designer|displayName": "logo",
+                        "cls": [
+                            "logo"
+                        ],
+                        "height": "150px",
+                        "style": "margin-top: 20%; margin-bottom: 10%;",
+                        "src": "resources/images/logo.png"
+                    },
+                    "designerId": "817920ff-2b8a-4b96-b3df-e44afab9e248"
+                },
+                {
+                    "type": "emailfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyEmailField",
+                        "id": "login-view-email",
+                        "style": "margin-bottom: 4%; margin-left: 10%;",
+                        "width": "80%",
+                        "label": "&nbsp;",
+                        "labelCls": "email-field-label",
+                        "labelWidth": "45px",
+                        "name": "name",
+                        "placeHolder": "Username"
+                    },
+                    "designerId": "514c843c-897b-4e1a-a6ee-4ff7363a43ef"
+                },
+                {
+                    "type": "passwordfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyPasswordField",
+                        "id": "login-view-password",
+                        "style": "margin-bottom: 4%; margin-left: 10%;",
+                        "width": "80%",
+                        "label": "&nbsp;",
+                        "labelCls": "password-field-label",
+                        "labelWidth": "45px",
+                        "name": "password",
+                        "placeHolder": "Password"
+                    },
+                    "designerId": "df349e9b-e1cb-4727-a3ea-ee972edce8ae"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton1",
+                        "designer|displayName": null,
+                        "baseCls": "login-btn",
+                        "id": "login-button",
+                        "itemId": "mybutton1",
+                        "style": "margin-left: 10%;",
+                        "width": "80%",
+                        "pressedCls": "login-btn-pressed",
+                        "text": "Sign In"
+                    },
+                    "designerId": "51a6e186-9556-49e2-a14d-7eae514f37bd"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton1",
+                        "designer|displayName": null,
+                        "baseCls": "login-btn",
+                        "id": "signup-button",
+                        "itemId": "mybutton1",
+                        "style": "margin-left: 10%; margin-top: 10px;",
+                        "width": "80%",
+                        "pressedCls": "login-btn-pressed",
+                        "text": "Create new profile"
+                    },
+                    "designerId": "ba1ff723-5d17-4320-a5a6-8c6ba685d733"
+                }
+            ]
+        }
+    ]
+}
